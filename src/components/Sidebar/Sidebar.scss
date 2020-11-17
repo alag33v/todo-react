@@ -1,0 +1,96 @@
+.todo__sidebar {
+  width: 350px;
+  height: 100vh;
+  background-color: lightcyan;
+  padding: 60px 0 0 30px;
+
+  &-title {
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 24px;
+    opacity: 0.75;
+    transition: 0.4s;
+    cursor: pointer;
+    position: relative;
+
+    &::before {
+      content: '';
+      width: 18px;
+      height: 18px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-45%);
+      background-image: url('../../assets/images/entypo-list.svg');
+      background-repeat: no-repeat;
+      position: absolute;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &-list {
+    list-style: none;
+    padding: 30px 0;
+  }
+
+  &-item {
+    padding: 10px 0 10px 20px;
+    cursor: pointer;
+    position: relative;
+
+    &::before {
+      content: '';
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      background-color: #42b883;
+      position: absolute;
+    }
+
+    &.active {
+      font-weight: 700;
+    }
+  }
+  
+  &-link {
+    text-decoration: none;
+    color: black;
+  }
+
+  &-text {
+    max-width: 225px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+
+  &-remove {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-45%);
+    position: absolute;
+    transition: 0.2s;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.todo__sidebar-item:hover .todo__sidebar-remove {
+  opacity: 0.4;
+}
+
+.todo__sidebar-item .todo__sidebar-remove:hover {
+  opacity: 1;
+}

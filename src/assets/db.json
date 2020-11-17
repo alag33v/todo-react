@@ -1,0 +1,142 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Покупки"
+    },
+    {
+      "id": 3,
+      "name": "Фильмы и сериалы"
+    },
+    {
+      "id": 4,
+      "name": "Книги"
+    },
+    {
+      "name": "Фронтенд",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "listId": 1,
+      "text": "Бананы",
+      "completed": false,
+      "id": 22
+    },
+    {
+      "listId": 3,
+      "text": "Ход королевы (мини–сериал 2020)",
+      "completed": false,
+      "id": 23
+    },
+    {
+      "listId": 3,
+      "text": "Середина 90-х (2018)",
+      "completed": false,
+      "id": 24
+    },
+    {
+      "listId": 3,
+      "text": "Дух улья (1973)",
+      "completed": false,
+      "id": 25
+    },
+    {
+      "listId": 3,
+      "text": "Казино (1995)",
+      "completed": false,
+      "id": 26
+    },
+    {
+      "listId": 3,
+      "text": "Выкорми ворона (1975)",
+      "completed": false,
+      "id": 27
+    },
+    {
+      "listId": 4,
+      "text": "Стив Джобс. Биография (2015)",
+      "completed": false,
+      "id": 28
+    },
+    {
+      "listId": 4,
+      "text": "Магическая уборка",
+      "completed": false,
+      "id": 29
+    },
+    {
+      "listId": 4,
+      "text": "НЕ НОЙ",
+      "completed": false,
+      "id": 30
+    },
+    {
+      "listId": 1,
+      "text": "Яблоки",
+      "completed": false,
+      "id": 31
+    },
+    {
+      "listId": 1,
+      "text": "Молоко",
+      "completed": false,
+      "id": 32
+    },
+    {
+      "listId": 1,
+      "text": "Масло",
+      "completed": false,
+      "id": 33
+    },
+    {
+      "listId": 1,
+      "text": "Творог",
+      "completed": false,
+      "id": 35
+    },
+    {
+      "listId": 1,
+      "text": "Чай",
+      "completed": false,
+      "id": 36
+    },
+    {
+      "listId": 1,
+      "text": "Сухари",
+      "completed": false,
+      "id": 37
+    },
+    {
+      "listId": 1,
+      "text": "Вода",
+      "completed": false,
+      "id": 38
+    },
+    {
+      "listId": 1,
+      "text": "Конфеты",
+      "completed": false,
+      "id": 39
+    },
+    {
+      "listId": 5,
+      "text": "Изучить useEffect",
+      "completed": false,
+      "id": 40
+    },
+    {
+      "listId": 5,
+      "text": "Изучить React State",
+      "completed": false,
+      "id": 42
+    },
+    {
+      "listId": 5,
+      "text": "Изучить жизненный цикл компонента",
+      "completed": false,
+      "id": 43
+    }
+  ]
+}
